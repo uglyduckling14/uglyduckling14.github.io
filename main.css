@@ -1,0 +1,126 @@
+ <style>
+   p{
+    color:blue;
+    font-size:50px;
+    margin-top:75px;
+    }
+   .listitem {
+   	color:green;
+    font-size:20px;
+    }
+    .paragraph{
+        color:purple;
+        font-size:2.5em;
+    }
+    #background {
+    	background-color: #4286f4;
+    }
+    .button{
+    	height:250px;
+    	width:180px;
+    	color:yellow;
+    	background-color:orange;
+    	border-radius:15px;
+    }
+    .wrap-trivia{
+        height:500px;
+        width:450px;
+        border:5px double yellow;
+    }
+    .wrap-list{
+        height:400px;
+        width:450px;
+        border:5px dashed white;
+    }
+    header{
+        height:250px;
+        width:90%;
+        border:2px solid black;
+        background-color: #4286f4;
+        font-size:100px;
+        margin-bottom:3em;
+    }
+    footer{ 
+        height:250px;
+        width:90%;
+        border:2px yellow;
+        background-color:#a142f4;
+        color:yellow;
+        font-size:100px;
+
+    }
+    .wrap-text{
+        color:#59f441;
+        font-size: 1em;
+    }
+    iframe{
+        
+    }
+    #one{
+        height:1500px;
+        width: 150px;
+        background-color:red;
+        display: inline-block;
+        position: absolute;
+        z-index:1;
+        position:fixed;
+        left:500px;
+    }
+    #two{
+        height:150px;
+        width: 150px;
+        background-color:blue;
+        display: inline-block;
+        position: absolute;
+        z-index:2;
+    }
+    #three{
+        height:150px;
+        width: 150px;
+        background-color:green;
+        display: inline-block;
+        position: absolute;
+        position:relative;
+        top:750px;
+    }
+    #A1{
+        height:2048;
+
+    }
+    .navitem{
+        list-style-type:none;
+        display:inline;
+        padding-right:1.5em;
+    }
+    #navmenu{
+        width:250px;
+        height:30px;
+        margin:auto;
+    }
+    .navitem:link{
+        color:blue;
+
+    }
+    .navitem:visited{
+        color:purple;
+    }\
+    .navitem.hover{
+        color:green;
+    }
+    .navitem.active{
+        color:orange;
+    }
+    .#rightside{
+        float:right;
+        width:350%;
+    }
+    
+    #leftside{
+        float:left;
+        
+    }
+    .clearfloat{
+        clear:right;
+    }
+   
+  </style>  
