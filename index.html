@@ -1,0 +1,88 @@
+<html> 
+ <head>
+  <link type="text/css" rel="stylesheet"href="main.css"/>
+  <nav>
+     <ul id= "navmenu">
+      <li class="navitem"><a href="home.html">Home</a></li>
+      <li class="navitem"><a href="page 1.html">Page 1</a></li>
+      <li class="navitem"><a href="page 2.html">page 2</a></li>
+     </ul>
+
+    </nav>
+   <div id="leftside"> 
+  <title> Big Foot Soap Fund </title> 
+  <script>function banner(){ 
+var text = confirm("Did You Really Want to Click on My Banner?"); 
+return text; 
+}
+function answer(){
+  var radio = document.getElementsByName("Trivia"); 
+  var selection = false; 
+  var message = ";)";
+  for( var i = 0; i < radio.length; i++) {
+    if(radio[i].value == "Right" && radio[i].checked == true) { 
+      selection = true; 
+    } //end if statement 
+  } //end for loop
+  if(selection == true) {
+    message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+  } else { 
+  message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;
+
+}//end function answer
+</script>
+</div>
+ 
+ </head> 
+ <body id="background"> 
+   <a href= "http://bing.com" onclick="return banner()">
+   <header id= "header"><span class= "wrap-text">Big Foot Needs YOU!</span></header>
+   </a>
+   <h1> Big Foot Soap Fund </h1>
+<p class= "paragraph"> Big Foot needs soap <strong>badly</strong>. He smells so bad he <u>can't hide anymore</u>! This is a very <i>dangerous problem</i>. Because when he can't hide anymore people go crazy because they want to hug him so much. Not only does this make the people stink, Big Foots(Big Feet?) are deathly allergic to human contact. So to solve this problem we have designed a soap to help Big Foot not smell so much so he can hide. 
+   </p>
+    
+  <title> Big Foot Soap Fund </title> 
+   <div id ="rightside">
+   <div class= "wrap-list">
+    <ol>
+      <li class= "listitem"> Big Foots are an endangered species! </li>
+      <li class= "listitem"> Big Foots are an important part of getting kids to stay on the trail in fear of them. </li>
+      <li class= "listitem"> They also love butterflies and McDonald fries. </li>
+    </ol>
+   </div>
+    
+    <iframe width="560" 
+   height="315" src="https://www.youtube.com/embed/Us6jo8bl2lk" ALIGN="right"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+   Your browser does not support HTML5 video.
+    </iframe>
+  </div>
+   <div class="clearfloat"
+   ]<audio width="400" height="220" controls autoplay>
+   <source src="file:///C:/Users/Esperanza/Downloads/Chewbacca%20Wookie%20Noise-SoundBible.com-1201859158%20(1).mp3" type="audio/mpeg">
+Your browser does not support HTML 5 audio.
+</audio>
+</div>
+   <div class= "wrap-trivia">
+   <h2> BigFoot Trivia Question:</h2>
+   <p> Where was Big Foot originally seen?</p>
+   
+   <form>
+     <div id="response"></div>
+     <input type="radio"name= "Trivia" value= "Wrong"> Florida <br>
+     <input type="radio"name= "Trivia" value= "Wrong"> Arizona<br>
+     <input type="radio"name= "Trivia" value= "Wrong"> California<br>
+     <input type="radio"name= "Trivia" value= "Right"> Canada<br>
+     <input type= "button"value= "Submit" id="button" onclick="answer()">
+   </form>
+   </div>
+   <img src= "https://thumbs.dreamstime.com/t/bigfoot-captured-on-mobile-cell-phone-camera-27615266.jpg"/>
+   <img src= "https://thumbs.dreamstime.com/x/bear-feet-20539154.jpg"/>
+   <hr>
+   <center> uglyduckling14 <a href= "http://www.bigfoot.com/"> My Favorite Website</a> </center>
+   <footer> uglyduckling14 world's most amazing big foot scientist.
+   </footer>
+ </body> 
+</html>
